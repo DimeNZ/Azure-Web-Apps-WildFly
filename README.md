@@ -14,15 +14,20 @@ Choose the appropriate Java and Tomcat version and make sure that "Always On" is
 
 ![alt text](READMEArtifacts/AppSettings_General.png "Java Setup")
 
-Tomcat will be hosted at the root ("/index.jsp), however WildFly will be hosted as a virtual application ("/yourvirtualpath/").
+Tomcat will be hosted at the root ("/index.jsp"), however WildFly will be hosted as a virtual application ("/yourvirtualpath/").
 
 ![alt text](READMEArtifacts/AppSettings_VirtualApplications.png "Java Setup")
 
 ### Step 3 - Replace wwwroot 
-Replace Azure Web Apps D:\home\site\wwwroot folder
+Replace Azure Web Apps D:\home\site\wwwroot folder with this GitHub's Repository [wwwroot](https://github.com/zkavtaskin/Azure-Web-Apps-WildFly/tree/master/wwwroot)  folder.
+
 
 ### Step 4 - Download WildFly 
-Download WildFly or copy the existing files in to the D:\home\site\wwwroot\virtualapplicationwildfly\WildFlyGoldCopy
+Download WildFly or copy the existing files in to the D:\home\site\wwwroot\virtualapplicationwildfly\WildFlyGoldCopy.
+
+Contents of the WildFlyGoldCopy should look something like this:
+![alt text](READMEArtifacts/WildFlyGoldCopy.png "Java Setup")
+
 
 ### Step 5 - Customize Web.Config
 
