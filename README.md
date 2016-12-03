@@ -26,6 +26,7 @@ Replace Azure Web Apps D:\home\site\wwwroot folder with this GitHub's Repository
 Download WildFly or copy the existing files in to the D:\home\site\wwwroot\virtualapplicationwildfly\WildFlyGoldCopy.
 
 Contents of the WildFlyGoldCopy should look something like this:
+
 ![alt text](READMEArtifacts/WildFlyGoldCopy.png "Java Setup")
 
 
