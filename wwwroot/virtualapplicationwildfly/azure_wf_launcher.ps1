@@ -12,7 +12,7 @@ Get-ChildItem -Path $siteRootWF -Filter "WF_$($env:COMPUTERNAME)_*" -Directory |
 
 
 Write-Output "Step 2, creating new folder and copy files into it"
-Copy-Item "$siteRootWF\WildFlyGoldCopy" -Destination "$siteRootWF\$clonedWFFolder" -Recurse -Verbose
+Copy-Item "$siteRootWF\WildFlyGoldCopy" -Destination "$siteRootWF\$clonedWFFolder" -Recurse
 
 
 Write-Output "Step 3, Invoking cloned WildFly"
