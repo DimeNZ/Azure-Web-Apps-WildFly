@@ -8,7 +8,7 @@ Write-Output "Step 1, clean up old folders"
 Get-ChildItem -Path $siteRootWF -Filter "WF_$($env:COMPUTERNAME)_*" -Directory | 
                             sort -Property CreationTime -Descending | 
                             select -Skip 1 | 
-                            Remove-Item -Force -Recurse -Verbose
+                            Remove-Item -Recurse -Force
 
 
 Write-Output "Step 2, creating new folder and copy files into it"
