@@ -1,4 +1,4 @@
-# Azure-Web-Apps-WildFly (Draft)
+# Azure-Web-Apps-WildFly
 
 **Repository objective:** To enable scalable and configurable WildFly hosting on Azure Web Apps.
 
